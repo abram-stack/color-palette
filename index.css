@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+header {
+  width: 420px;
+  margin: 0 auto;
+  display: flex;
+  padding: 50px 10px 20px 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button,
+select {
+  padding: 10px 10px;
+  border: 1px solid gray;
+  background-color: #fffdfe;
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+button {
+  align-self: stretch;
+  padding: 10px 10px;
+ 
+  font-size: 14px;
+}
+
+header input[type='color'] {
+  width: 50px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.paletteContainer {
+  display: flex;
+  width: 420px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.colorPalette {
+  display: flex;
+  flex-direction: column;
+  width: 84px;
+  height: 50vh;
+}
+
+.paletteContent {
+  flex: 80%;
+  /*background-color: blueviolet;*/
+}
+
+.paletteHex {
+  text-align: center;
+}
